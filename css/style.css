@@ -21,8 +21,12 @@ body {
   margin: 20px;
 }
 
-.hide{
+.hide-cards{
     filter:brightness(0.0);
+}
+
+.show-cards{
+  filter: brightness(1.0);
 }
 
 .footer {
