@@ -21,12 +21,46 @@ body {
   margin: 20px;
 }
 
+#container > img:hover{
+  cursor: pointer;
+}
+
 .hide-cards{
     filter:brightness(0.0);
 }
 
 .show-cards{
   filter: brightness(1.0);
+}
+
+#button{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+button{
+  padding: 20px;
+  font-size: 25px;
+  border: #00f323 solid 2px;
+  margin: 5px;
+  animation: neonAnim 1s alternate-reverse infinite;
+  color: #00f323;
+  font-family: "Times New Roman", Times, serif;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: url('/images/wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+  width: 20%;
+  margin: 10px auto 5px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(0, 243, 35, 0.7);
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 .footer {

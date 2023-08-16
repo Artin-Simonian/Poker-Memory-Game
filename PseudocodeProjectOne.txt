@@ -1,0 +1,26 @@
+Pseudocode 
+
+// declare variables
+// let cardOne
+// let cardTwo
+// cardImgs
+
+// fucntion cardClicker(){
+
+// if else statement
+// show cardOne when user clicks
+// show cardTwo when use clicks
+// they are hidden
+
+}
+
+
+// forEach statement
+// add eventListener to cardImgs
+// forEach card that is being clicked, run the cardClicker()
+
+// matchingCards(){
+// if else statement
+// if cardOne == cardTwo
+// else return them to null and hide
+
