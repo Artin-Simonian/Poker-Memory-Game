@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  width: 50%;
+  padding: 40px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+#container > img {
+  width: 11%;
+  margin: 20px;
+}
+
+.hide{
+    filter:brightness(0.0);
+}
+
+.footer {
+  animation: neonAnim 1s alternate-reverse infinite;
+  color: #00f323;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: url('/images/wood.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; */
+  width: 10%;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(0, 243, 35, 0.7);
+}
+
+.neon {
+  animation: neonAnim 1s alternate-reverse infinite;
+  color: #00f323;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: url('/images/wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+  width: 30%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(0, 243, 35, 0.7);
+}
+
+@keyframes neonAnim {
+  from {
+    text-shadow: 0 0 40px rgba(0, 243, 35, 0.7), 0 0 70px rgba(0, 243, 35, 0.7),
+      0 0 130px rgba(0, 243, 35, 0.7);
+  }
+  to {
+    text-shadow: 0 0 35px rgba(0, 243, 35, 0.7), 0 0 50px rgba(0, 243, 35, 0.7),
+      0 0 90px rgba(0, 243, 35, 0.7);
+  }
+}
+
+audio {
+  height: 20px;
+}
+
+#audio{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
