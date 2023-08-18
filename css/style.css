@@ -14,32 +14,45 @@ body {
   padding: 40px;
   margin: 10px auto 0;
   text-align: center;
+  background-image: url('/images/table.jpg');
+  background-repeat: none;
+  background-size: cover;
+  border: solid 15px #D1A57C;
+  border-radius: 20%;
 }
 
+
+
 #container > img {
-  width: 11%;
+  width: 12%;
   margin: 20px;
 }
 
-#container > img:hover{
+#container > img:hover {
   cursor: pointer;
 }
 
-.hide-cards{
-    filter:brightness(0.0);
+
+.container-image{
+  height: 200px;
+  color: red;
 }
 
-.show-cards{
-  filter: brightness(1.0);
+.hide-cards {
+  filter: brightness(0);
 }
 
-#button{
+.show-cards {
+  filter: brightness(1);
+}
+
+#button {
   width: 50%;
   margin: auto;
   text-align: center;
 }
 
-button{
+button {
   padding: 20px;
   font-size: 25px;
   border: #00f323 solid 2px;
@@ -59,8 +72,25 @@ button{
   border: 5px solid rgb(0, 243, 35, 0.7);
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
+}
+
+#moves{
+  animation: neonAnim 1s alternate-reverse infinite;
+  color: #00f323;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: url('/images/wood.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; */
+  width: 10%;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(0, 243, 35, 0.7);
+  padding: 5px;
 }
 
 .footer {
@@ -111,8 +141,10 @@ audio {
   height: 20px;
 }
 
-#audio{
-    width: 50%;
-    margin: auto;
-    text-align: center;
+#audio {
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
+
+
