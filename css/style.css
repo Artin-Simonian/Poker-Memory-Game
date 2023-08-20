@@ -14,14 +14,12 @@ body {
   padding: 40px;
   margin: 10px auto 0;
   text-align: center;
-  background-image: url('/images/table.jpg');
+  background-image: url("/images/table.jpg");
   background-repeat: none;
   background-size: cover;
-  border: solid 15px #D1A57C;
-  border-radius: 20%;
+  border: solid 15px #7D4D31;
+  border-radius: 25%;
 }
-
-
 
 #container > img {
   width: 12%;
@@ -32,8 +30,7 @@ body {
   cursor: pointer;
 }
 
-
-.container-image{
+.container-image {
   height: 200px;
   color: red;
 }
@@ -72,11 +69,13 @@ button {
   border: 5px solid rgb(0, 243, 35, 0.7);
 }
 
+
+
 button:hover {
   cursor: pointer;
 }
 
-#moves{
+#moves {
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;
   font-family: "Times New Roman", Times, serif;
@@ -85,7 +84,7 @@ button:hover {
   /* background: url('/images/wood.jpg');
         background-size: cover;
         background-repeat: no-repeat; */
-  width: 10%;
+  width: 15%;
   margin: 10px auto 0;
   border-radius: 20px;
   text-align: center;
@@ -146,5 +145,3 @@ audio {
   margin: auto;
   text-align: center;
 }
-
-
