@@ -73,6 +73,29 @@ button:hover {
   cursor: pointer;
 }
 
+#container-gameOver {
+  width: 50%;
+  margin: 30vh auto;
+  text-align: center;
+}
+
+#container-gameOver h1 {
+  animation: neonAnim 1s alternate-reverse infinite;
+  color: #00f323;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: url('/images/wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+  width: 30%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(0, 243, 35, 0.7);
+}
+
 #moves {
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;

@@ -8,7 +8,7 @@ let cardTwo = null;
 let moves = 20;
 
 let cardImgs = document.querySelectorAll(".hide-cards");
-let resetBtn = document.querySelector("button");
+let resetBtn = document.querySelector("#button");
 const movesEl = document.getElementById("moves-count");
 
 const imageContainer = document.querySelector("#container");
@@ -44,7 +44,7 @@ function cardsClicker(card) {
     moves--;
     movesEl.textContent = moves;
     if (moves === 0) {
-      location.reload();
+      window.location.href = "gameOver.html";
     }
   }
 }
