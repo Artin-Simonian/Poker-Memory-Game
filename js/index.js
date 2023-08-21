@@ -43,7 +43,7 @@ function cardsClicker(card) {
     setTimeout("matchingCards()", 1000);
     moves--;
     movesEl.textContent = moves;
-    if(moves === 0){
+    if (moves === 0) {
       location.reload();
     }
   }
@@ -76,7 +76,6 @@ function areAllCardsFlipped() {
   const flippedCards = document.querySelectorAll(".show-cards");
   return flippedCards.length === cardImgs.length;
 }
-
 
 resetBtn.addEventListener("click", () => {
   location.reload();

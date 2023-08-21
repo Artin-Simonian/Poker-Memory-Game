@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("/images/background.jpeg");
+  background-image: url("/images/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,7 +17,7 @@ body {
   background-image: url("/images/table.jpg");
   background-repeat: none;
   background-size: cover;
-  border: solid 15px #7D4D31;
+  border: solid 15px #7d4d31;
   border-radius: 25%;
 }
 
@@ -68,8 +68,6 @@ button {
   text-align: center;
   border: 5px solid rgb(0, 243, 35, 0.7);
 }
-
-
 
 button:hover {
   cursor: pointer;
