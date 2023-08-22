@@ -9,7 +9,9 @@ let cardOne = null;
 let cardTwo = null;
 let moves = 20;
 let cardImgs = document.querySelectorAll(".hide-cards");
-let resetBtn = document.querySelector("#button");
+let resetBtn = document.querySelector(".button > #reset-game-btn");
+let gameRulesBtn = document.getElementById('game-rules-btn');
+let gameRulesArea = document.getElementById('game-rules');
 const movesEl = document.getElementById("moves-count");
 const imageContainer = document.querySelector("#container");
 const images = document.querySelectorAll(".hide-cards");
@@ -21,7 +23,7 @@ function shuffleBoard(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   audio.currentTime = 0;
-  audio.play();
+  //audio.play();
 }
 
 // creates a new array from the 'images'
@@ -80,3 +82,7 @@ function winner() {
 resetBtn.addEventListener("click", () => {
   location.reload();
 });
+
+gameRulesBtn.addEventListener('click', function(){
+  gameRulesArea.classList.toggle('hide');
+})
