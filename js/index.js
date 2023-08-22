@@ -23,7 +23,7 @@ function shuffleBoard(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   audio.currentTime = 0;
-  //audio.play();
+  audio.play();
 }
 
 // creates a new array from the 'images'
