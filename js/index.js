@@ -6,6 +6,7 @@ const jackPot = new Audio("audio/jackpot.mp3");
 const losing = new Audio("audio/losing.mp3");
 
 // card and button variables
+let ignoreClicks = false;
 let cardOne = null;
 let cardTwo = null;
 let moves = 20;
@@ -37,12 +38,14 @@ shuffledImages.forEach((image) => {
 
 // handle click function
 function handleClick(card) {
+  if (ignoreClicks) return;
   if (cardOne == null) {
     card.className = "show-cards";
     cardOne = card;
   } else if (cardTwo == null) {
     card.className = "show-cards";
     cardTwo = card;
+    ignoreClicks = true;
     setTimeout("cardsMatched()", 1000);
     moves--;
     movesEl.textContent = moves;
@@ -79,6 +82,7 @@ function cardsMatched() {
     cardOne = null;
     cardTwo = null;
   }
+  ignoreClicks = false;
 }
 
 function winner() {
