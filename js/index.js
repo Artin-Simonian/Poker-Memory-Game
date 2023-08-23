@@ -1,8 +1,9 @@
 // Audio variables
-const audio = new Audio("/audio/casino.mp3");
-const wrongCardAudio = new Audio("/audio/correct.mp3");
-const audience = new Audio("/audio/audience.mp3");
-const jackPot = new Audio("/audio/jackpot.mp3");
+const audio = new Audio("audio/casino.mp3");
+const wrongCardAudio = new Audio("audio/correct.mp3");
+const audience = new Audio("audio/audience.mp3");
+const jackPot = new Audio("audio/jackpot.mp3");
+const losing = new Audio("audio/losing.mp3");
 
 // card and button variables
 let cardOne = null;
@@ -10,8 +11,8 @@ let cardTwo = null;
 let moves = 20;
 let cardImgs = document.querySelectorAll(".hide-cards");
 let resetBtn = document.querySelector(".button > #reset-game-btn");
-let gameRulesBtn = document.getElementById('game-rules-btn');
-let gameRulesArea = document.getElementById('game-rules');
+let gameRulesBtn = document.getElementById("game-rules-btn");
+let gameRulesArea = document.getElementById("game-rules");
 const movesEl = document.getElementById("moves-count");
 const imageContainer = document.querySelector("#container");
 const images = document.querySelectorAll(".hide-cards");
@@ -46,9 +47,15 @@ function handleClick(card) {
     moves--;
     movesEl.textContent = moves;
     if (moves === 0) {
-      window.location.href = "gameOver.html";
+      losingHandler();
     }
   }
+}
+
+function losingHandler() {
+  audio.pause();
+  window.location.href = "gameOver.html";
+  losing.play();
 }
 
 cardImgs.forEach((card) => {
@@ -80,9 +87,9 @@ function winner() {
 }
 
 resetBtn.addEventListener("click", () => {
-  location.reload();
+  window.location.href = "index.html";
 });
 
-gameRulesBtn.addEventListener('click', function(){
-  gameRulesArea.classList.toggle('hide');
-})
+gameRulesBtn.addEventListener("click", function () {
+  gameRulesArea.classList.toggle("hide");
+});

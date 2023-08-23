@@ -4,9 +4,10 @@
 }
 
 body {
-  background-image: url("/images/back.jpg");
+  background-image: url("images/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 #container {
@@ -14,7 +15,7 @@ body {
   padding: 40px;
   margin: 10px auto 0;
   text-align: center;
-  background-image: url("/images/table.jpg");
+  background-image: url("images/table.jpg");
   background-repeat: none;
   background-size: cover;
   border: solid 15px #7d4d31;
