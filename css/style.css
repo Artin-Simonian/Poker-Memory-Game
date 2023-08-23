@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("images/back.jpg");
+  background-image: url("https://i.imgur.com/zYvDI9t.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -15,7 +15,7 @@ body {
   padding: 40px;
   margin: 10px auto 0;
   text-align: center;
-  background-image: url("images/table.jpg");
+  background-image: url("https://i.imgur.com/nkjT6p9.jpg");
   background-repeat: none;
   background-size: cover;
   border: solid 15px #7d4d31;
