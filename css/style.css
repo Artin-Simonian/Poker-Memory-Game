@@ -7,7 +7,7 @@ body {
   background-image: url("https://i.imgur.com/zYvDI9t.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 #container {
@@ -22,7 +22,7 @@ body {
   border-radius: 25%;
 }
 
-.hide{
+.hide {
   display: none;
   opacity: 0;
   transition: opacity 1s ease;
@@ -52,11 +52,11 @@ body {
 
 .button {
   width: 50%;
-  margin: 10px auto;
+  margin: 5px auto;
   text-align: center;
 }
 
-#rules button{
+#rules button {
   width: 20%;
   margin: auto;
   text-align: center;
@@ -66,7 +66,7 @@ button {
   padding: 20px;
   font-size: 25px;
   border: #00f323 solid 2px;
-  
+
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;
   font-family: "Times New Roman", Times, serif;
@@ -107,7 +107,7 @@ button:hover {
   border: 5px solid rgb(0, 243, 35, 0.7);
 }
 
-#game-rules{
+#game-rules {
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;
   text-align: center;
@@ -119,7 +119,7 @@ button:hover {
   border-radius: 20px;
 }
 
-#game-rules li{
+#game-rules li {
   list-style: none;
 }
 
@@ -150,7 +150,7 @@ button:hover {
         background-size: cover;
         background-repeat: no-repeat; */
   width: 10%;
-  margin: 10px auto 0;
+  margin: auto;
   border-radius: 20px;
   text-align: center;
   border: 5px solid rgb(0, 243, 35, 0.7);
@@ -166,7 +166,7 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat; */
   width: 30%;
-  margin: 20px auto;
+  margin: 20px auto 10px;
   padding: 10px;
   border-radius: 20px;
   text-align: center;
