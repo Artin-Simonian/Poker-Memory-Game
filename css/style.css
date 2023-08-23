@@ -44,6 +44,7 @@ body {
 
 .hide-cards {
   filter: brightness(0);
+  -webkit-user-drag: none;
 }
 
 .show-cards {
