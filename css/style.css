@@ -67,14 +67,11 @@ button {
   padding: 20px;
   font-size: 25px;
   border: #00f323 solid 2px;
-
+  
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;
   font-family: "Times New Roman", Times, serif;
   background: rgba(0, 0, 0, 0.7);
-  /* background: url('/images/wood.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
   padding: 10px;
   border-radius: 20px;
   text-align: center;
@@ -97,9 +94,6 @@ button:hover {
   font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   background: rgba(0, 0, 0, 0.7);
-  /* background: url('/images/wood.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
   width: 30%;
   margin: 20px auto;
   padding: 10px;
@@ -130,9 +124,6 @@ button:hover {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   background: rgba(0, 0, 0, 0.7);
-  /* background: url('/images/wood.jpg');
-        background-size: cover;
-        background-repeat: no-repeat; */
   width: 15%;
   margin: 10px auto 0;
   border-radius: 20px;
@@ -147,9 +138,6 @@ button:hover {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   background: rgba(0, 0, 0, 0.7);
-  /* background: url('/images/wood.jpg');
-        background-size: cover;
-        background-repeat: no-repeat; */
   width: 10%;
   margin: auto;
   border-radius: 20px;
@@ -163,9 +151,6 @@ button:hover {
   font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   background: rgba(0, 0, 0, 0.7);
-  /* background: url('/images/wood.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
   width: 30%;
   margin: 20px auto 10px;
   padding: 10px;
