@@ -42,7 +42,7 @@ function handleClick(card) {
   if (cardOne == null) {
     card.className = "show-cards";
     cardOne = card;
-  } else if (cardTwo == null) {
+  } else if (!cardTwo && card !== cardOne) {
     card.className = "show-cards";
     cardTwo = card;
     ignoreClicks = true;
