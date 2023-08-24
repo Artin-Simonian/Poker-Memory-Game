@@ -67,7 +67,6 @@ button {
   padding: 20px;
   font-size: 25px;
   border: #00f323 solid 2px;
-  
   animation: neonAnim 1s alternate-reverse infinite;
   color: #00f323;
   font-family: "Times New Roman", Times, serif;
