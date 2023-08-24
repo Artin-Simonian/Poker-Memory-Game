@@ -70,13 +70,13 @@ function cardsMatched() {
     cardOne = null;
     cardTwo = null;
     wrongCardAudio.play();
-
-    if (winner()) {
+  if (winner()) {
       audio.pause();
       audience.play();
       jackPot.play();
     }
-  } else {
+  } 
+  else {
     cardOne.className = "hide-cards";
     cardTwo.className = "hide-cards";
     cardOne = null;
